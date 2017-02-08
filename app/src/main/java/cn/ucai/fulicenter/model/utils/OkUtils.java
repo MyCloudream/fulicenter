@@ -19,7 +19,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-import cn.ucai.fuli_center.I;
+import cn.ucai.fulicenter.application.I;
 import okhttp3.Cache;
 import okhttp3.Call;
 import okhttp3.Callback;

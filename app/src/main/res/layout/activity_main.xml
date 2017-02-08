@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/rg_menu"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_new_good"
+            style="@style/main_activity_menu"
+            android:drawableTop="@drawable/selector_menu_item_new_good"
+            android:text="新品" />
+
+        <RadioButton
+            android:id="@+id/rb_boutique"
+            style="@style/main_activity_menu"
+            android:drawableTop="@drawable/selector_menu_item_boutique"
+            android:text="精选" />
+
+        <RadioButton
+            android:id="@+id/rb_category"
+            style="@style/main_activity_menu"
+            android:drawableTop="@drawable/selector_menu_item_category"
+            android:text="分类" />
+
+        <RadioButton
+            android:id="@+id/rb_cart"
+            style="@style/main_activity_menu"
+            android:drawableTop="@drawable/selector_menu_item_cart"
+            android:text="收藏" />
+
+        <RadioButton
+            android:id="@+id/rb_personal_center"
+            style="@style/main_activity_menu"
+            android:drawableTop="@drawable/selector_menu_item_personal_center"
+            android:text="我的" />
+
+    </RadioGroup>
+    
+    <RelativeLayout
+        android:id="@+id/layout_main_fragment"
+        android:layout_above="@+id/rg_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        />
+
+</RelativeLayout>

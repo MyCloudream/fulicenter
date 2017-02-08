@@ -1,4 +1,4 @@
-package cn.ucai.fulicenter;
+package cn.ucai.fulicenter.application;
 
 public interface I {
     String SERVER_URL = "http://139.196.185.33:8080/FuLiCenterServer/Server";
@@ -20,6 +20,7 @@ public interface I {
      */
     int COLUM_NUM = 2;
 
+    String AVATAR_SUFFIX_JPG = ".jpg";
 
     /**
      * 表示列表项布局的两种类型
@@ -126,6 +127,7 @@ public interface I {
          * 分享地址
          */
         String SHARE_URL = "share_url";
+
     }
 
     interface Property {
